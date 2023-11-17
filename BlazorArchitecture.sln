@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{2A5AD394-F520-4E77-9F9D-AEA0641BB089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Wasm.Sample", "Client\Client.Wasm.Sample\Client.Wasm.Sample.csproj", "{10A235D6-6FEC-4781-9612-46EB7FD2BECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A235D6-6FEC-4781-9612-46EB7FD2BECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A235D6-6FEC-4781-9612-46EB7FD2BECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A235D6-6FEC-4781-9612-46EB7FD2BECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A235D6-6FEC-4781-9612-46EB7FD2BECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10A235D6-6FEC-4781-9612-46EB7FD2BECA} = {2A5AD394-F520-4E77-9F9D-AEA0641BB089}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B47A2BF-BD2D-49D6-B18D-DBA902A456B1}
+	EndGlobalSection
+EndGlobal
