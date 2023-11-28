@@ -11,9 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{F6033D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FBB04ABC-D14E-4293-BAE3-A258BE78B4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Domain", "Server.Domain\Server.Domain.csproj", "{44AA7420-767E-4540-B652-87F093D95A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.Domain", "Server.Domain\Server.Domain.csproj", "{44AA7420-767E-4540-B652-87F093D95A4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.UI.Wasm", "Client.UI.Wasm\Client.UI.Wasm.csproj", "{F7794234-D2B9-421C-86AD-FEDA51B6C253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.UI.Wasm", "Client.UI.Wasm\Client.UI.Wasm.csproj", "{F7794234-D2B9-421C-86AD-FEDA51B6C253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{82FCDB17-B8D1-4126-BC54-01857278CD76}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		BlazorArchitecturePlan.txt = BlazorArchitecturePlan.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
