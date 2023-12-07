@@ -1,7 +1,7 @@
 ﻿using Server.Domain.Core.Abstractions;
 using Server.Domain.Core.Primitives;
 
-namespace Server.Domain.Entities;
+namespace Server.Domain.Entities.Visit;
 
 /// <summary>
 /// 방문객 정보를 나타냅니다.
